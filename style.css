@@ -1,0 +1,307 @@
+/*=======font family==========*/
+@font-face{
+    src: url(fonts/DarkerGrotesque-Black.ttf);
+    font-family: darker;
+    src: url(fonts/Merriweather-Black.ttf);
+    font-family: merri;
+    src: url(fonts/PTSerif-Bold.ttf);
+    font-family: pt;
+    src: url(fonts/QuattrocentoSans-Regular.ttf);
+    font-family: quatto;
+    src: url(fonts/Butcherman-Regular.ttf);
+    font-family: butcher;
+    src: url(fonts/TitilliumWeb-SemiBoldItalic.ttf);
+    font-family: titi; 
+}
+
+/*======== Layout Body=======*/ 
+body{
+    background-color: #e6e6fb;
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 14px;
+    align-content: center;
+}
+
+.header{
+    background-color: dodgerblue;
+    /*box-shadow: 3px 3px 3px #555555;*/
+    margin: 10px;
+    height: 80px;
+    border-radius: 5px;
+    /*box-shadow: 2px;*/
+}
+
+#headquote{
+    padding:5px;
+    list-style-type: none;
+    text-align: left;
+    background-color: cornflowerblue;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-family: merri;
+    font-style: italic;
+    text-shadow: 2px 2px 4px blue;
+}
+
+
+
+#navbar ul {
+    padding:15px;
+    list-style-type: none;
+    text-align: center;
+    background-color: dodgerblue;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#navbar ul li{
+    display: inline;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    font-family: merri;
+    font-size: 16px;
+    padding: 0.5em 0.5em;
+    /*margin: 20px;*/
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px blue;
+
+}
+
+#navbar ul li a:hover{
+    color:whitesmoke;
+    background-color: deepskyblue;
+    box-shadow: 1px 1px 3px blue;
+}
+
+.main{
+    background-color: floralwhite;
+    margin-left: 80px;
+    margin-right: 500px;
+    margin-top: 15px;
+    margin-bottom: 15px; 
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 17px; 
+    box-shadow: 1px 1px 1px #111111;
+    border: 1px solid;  
+    animation: slide;
+    animation-direction:alternate-reverse;
+    animation-delay: 1s;
+    
+}
+
+.main1{
+    background-color: floralwhite;
+    margin-left: 200px;
+    margin-right: 375px;
+    margin-top: 15px;
+    margin-bottom: 15px; 
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 17px; 
+    box-shadow: 1px 1px 1px #111111;
+    border: 1px solid;
+}
+
+.main2{
+    background-color: floralwhite;
+    margin-left: 80px;
+    margin-right: 500px;
+    margin-top: 15px;
+    margin-bottom: 15px; 
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 17px; 
+    box-shadow: 1px 1px 1px #111111;
+    border: 1px solid;
+}
+
+.main3{
+    background-color: floralwhite;
+    margin-left: 200px;
+    margin-right: 375px;
+    margin-top: 15px;
+    margin-bottom: 15px; 
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 17px; 
+    box-shadow: 1px 1px 1px #111111;
+    border: 1px solid;
+}
+
+.main4{
+    background-color: floralwhite;
+    margin-left: 80px;
+    margin-right: 500px;
+    margin-top: 15px;
+    margin-bottom: 15px; 
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 17px; 
+    box-shadow: 1px 1px 1px #111111;
+    border: 1px solid;
+}
+
+.sideright{
+    background-color: cornflowerblue;
+    margin: 10px;
+    border-radius: 5px;
+    padding:30px;
+    font-size: 105%;
+    float: right;
+    width: 250px;
+    /*box-shadow: 1px 1px 1px #111111;*/
+    /*border: 1px solid;*/
+    text-decoration: none;
+    clear: right;
+    
+}
+.sideright a {
+    text-decoration: none;
+    font-family: merri;
+    font-size: 17px;
+    padding: 0.5em 0.5em;
+    /*margin: 20px;*/
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px 4px blue;
+    clear: right;
+}
+
+.sideright a:hover{
+    color:whitesmoke;
+    background-color: deepskyblue;
+    box-shadow: 1px 1px 3px blue;
+    clear: right;
+
+}
+
+.sideright01{
+    background-color: cornflowerblue;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -400px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    padding:30px;
+    font-size: 105%;
+    float: right;
+    width: 250px;
+    /*box-shadow: 1px 1px 1px #111111;*/
+    /*border: 1px solid;*/
+    text-decoration: none;
+    
+}
+
+.sideright01 a {
+    text-decoration: none;
+    font-family: merri;
+    font-size: 17px;
+    padding: 0.5em 0.5em;
+    /*margin: 20px;*/
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px 4px blue;
+}
+
+.sideright01 a:hover{
+    color:whitesmoke;
+    background-color: deepskyblue;
+    box-shadow: 1px 1px 3px blue;
+
+}
+
+#footer{
+    height: auto;
+    background-color:dodgerblue;
+    color : whitesmoke;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    clear: both;
+    text-shadow: 2px 2px 4px blue;
+    letter-spacing: 2px;
+}
+
+/*========Heading Section============*/
+
+ h1{
+    font-size: 280%;
+    text-align: center;
+    color: white;
+    font-family: darker;
+    margin: 0px;
+    text-shadow: 2px 2px 5px blue;
+    font-size: 30px;
+    position:relative;
+    top: 50%;
+    -webkit-transform:translateY(-50%);
+    -ms-transform: translateY(-50%) ;
+    transform : translateY(-50%);
+    
+}
+
+h2{
+    font-size: 180%;
+    text-align: center;
+    color: white;
+    font-family: merri;
+    margin: 5px;
+    text-shadow: 1px 1px 3px blue;
+}
+
+p{
+    font-family: cursive;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+h3{
+    
+    font-size: 180%;
+    text-align: center;
+    color: white;
+    font-family: darker;
+    margin: 0px;
+    letter-spacing: 2px;
+}
+
+ img {
+    display:block;
+    margin-left: 500px;
+    margin-right: -495px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    max-height: 70px;
+    max-width: 70px;
+    float: left;
+}
+
+
